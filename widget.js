@@ -1,4 +1,3 @@
-
 var urlwidget = $('#widgetscript').attr('urlwidget');
 
 if(urlwidget)
@@ -17,7 +16,7 @@ if(urlwidget)
 			height = $('#widgetscript').attr('height');
 		}
 		
-		$('<iframe id="iframeId" style="'+'width:'+width+'; height:'+height+'"/>').appendTo($('#yp_company'));
+		$('<iframe id="iframeId" style="'+'width:'+width+'; height:'+height+'"/>').appendTo($('#iframediv'));
 		
 		setTimeout(function(){$("#iframeId").contents().find("body").html(res.responseText);},100);
 	});
