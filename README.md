@@ -2,7 +2,4 @@ jqueryscrapper
 ==============
 
 scrap a web page using jquery and embed it into an iframe and resolve the xdomain problem of javascript
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
-<script type="text/javascript" src="jquery.xdomainajax.js"></script>
-<script id="widgetscript" type="text/javascript" src="widget.js" urlwidget="{page url}"></script>
-<div id="iframediv"></div>
+please follow instructions on : http://www.ghazybenahmed.com/article/scraping-a-html-page-using-jquery/4
